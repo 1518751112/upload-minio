@@ -1,0 +1,22 @@
+{
+  "include": ["src","bin"],
+  "exclude": ["**/*.spec.ts", "**/*.spec.js", "node_modules"],
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "allowJs": true,
+    "removeComments": false,
+    "resolveJsonModule": true, // 允许使用 .json 扩展名导入的模块
+    "incremental": false,
+    "declaration": true,
+    "sourceMap": false,
+    "esModuleInterop": false,
+    "module": "CommonJS",
+    "target": "ESNext",
+    "lib": ["ESNext","ES2015","DOM"],
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+    }
+  }
+}

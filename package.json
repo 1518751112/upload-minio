@@ -1,0 +1,42 @@
+{
+  "name": "upload-minio-cli",
+  "version": "1.0.0",
+  "description": "使用脚本命令将文件上传到minio上",
+  "main": "./dist/src/index.js",
+  "bin": {
+    "upload-minio": "./dist/bin/initiate.js"
+  },
+  "scripts": {
+    "serve": "npm run dev",
+    "dev": "tsc",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "fs-extra": "^11.1.1",
+    "mime": "^3.0.0",
+    "minio": "^7.1.1",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1518751112/upload-minio.git"
+  },
+  "keywords": [
+    "upload",
+    "minio",
+    "cli"
+  ],
+  "author": "tg1518",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1518751112/upload-minio/issues"
+  },
+  "homepage": "https://github.com/1518751112/upload-minio#readme",
+  "files": [
+    "dist"
+  ]
+}
