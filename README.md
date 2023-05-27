@@ -7,9 +7,10 @@
 需要配置好minio服务器的地址和api授权信息
 
 ## 安装
-
+#### 全局安装 直接使用 upload-minio 命令
+#### 项目安装 需要在命令前加上 npx 示例 npx upload-minio
 ```
-npm install -save upload-minio-cli
+npm install -g upload-minio-cli
 ```
 
 ## 使用
